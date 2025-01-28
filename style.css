@@ -23,6 +23,7 @@
 body {
   margin: 0;
   font-family: "Plus Jakarta Sans", sans-serif;
+  background: linear-gradient(180deg, #FFF 0%, #F0F1FF 100%);
 }
 
 button {
@@ -118,15 +119,21 @@ nav {
 
 /* COURSES SECTION */
 .courses {
-  width: 100%;
   display: grid;
-  grid-template-columns: repeat(auto-fit, 352px);
+  grid-template-columns: repeat(3, 1fr);
   gap: 32px;
+  justify-items: center;
 }
 
 .course-box {
   width: 352px;
   height: 322px;
+  background-color: white;
+  border-radius: 15px;
+  padding-top: 64px;
+  padding-inline: 32px;
+  justify-content: center;
+  align-items: center;
 }
 
 
