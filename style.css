@@ -1,0 +1,73 @@
+@import url("https://api.fonts.coollabs.io/css2?family=Plus+Jakarta+Sans:wght@200..800&display=swap");
+
+:root {
+  --blue-color: #13183F;
+  --pink-color: #F74780;
+  --blue-light: #666CA3;
+  --pink-light: #FFA7C3;
+  --gray-color: #83869A;
+  --wwhite-color: #FFFFFF;
+  --gradient-pink: linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+  --gradient-purple: linear-gradient(180deg, #4851FF 0%, #F02AA6 100%);
+}
+
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+.overflow-wrapper {
+  overflow-x: hidden;
+}
+
+.wrapper {
+  width: 90%;
+  max-width: 1120px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-block: 24px;
+}
+
+.nav-btn {
+  background-color: var(--blue-color);
+  color: var(--wwhite-color);
+  padding: 12px 28px;
+  border-radius: 28px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 150%;
+}
+
+.hero-content-container {
+  display: flex;
+}
+
+@media screen and (max-width: 800px) {
+  .nav-btn {
+    padding: 10px 25px;
+  }
+}
