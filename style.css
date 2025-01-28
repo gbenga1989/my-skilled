@@ -116,6 +116,20 @@ nav {
   display: none;
 }
 
+/* COURSES SECTION */
+.courses {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 352px);
+  gap: 32px;
+}
+
+.course-box {
+  width: 352px;
+  height: 322px;
+}
+
+
 
 /* MEDIA QUERIES */
 
